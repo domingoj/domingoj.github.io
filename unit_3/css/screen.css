@@ -1,13 +1,15 @@
-/* CSS Document for Screens */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing:border-box;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #FFFFFF; margin: 0px; padding: 0; 
-
+body { 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px; 
+	font-weight: 300;
+	color: #FFFFFF;  
  }
 
 h1 {
@@ -15,15 +17,9 @@ h1 {
 
 }
 hr {
+	margin:auto;
 	width: 275px;
-	align-items: : center;
 }
-
-h2 {
-	text-align: center;
-}
-
-
 #slogan {
 	text-align: center;
 	font-style: italic;
@@ -33,9 +29,8 @@ h2 {
 div {
 	width: 400px;
 	height: 400px;
-	border: 2px; white;
-	display: inline-block;
-	margin: 20px;
+	border: 2px white solid;
+	margin: 20px auto;
 }
 
 img {
