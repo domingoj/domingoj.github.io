@@ -11,24 +11,30 @@ body {
 	font-weight: 300;
 }
 hr {
-	width: 275px;
+	width: 375px;
 }
 #slogan {
 	font-style: italic;
 	font-size: 21px;
+	padding-top: 20px;
 }
 #intro {
-	background:url(../images/Boy_new.jpg);
+	background:url(../images/Profile_Header.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
-	background-position: bottom;
+	background-position: left;
 	height: 90vh;
 	position: relative;
 }
 #intro div {
-    font-size: 2em;
-    color: #fff;
+    font-size: 1.5em;
+    color: #696969;
     position: absolute;
     right: 20%;
     top: 22%;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: 400;
 }
