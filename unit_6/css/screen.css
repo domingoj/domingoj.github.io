@@ -97,6 +97,12 @@ nav a {
 		background: #aaaaaa
 	}
 
+.wrapper {
+		width: 1366px;
+		background-color: purple;
+		margin: auto;
+	}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
