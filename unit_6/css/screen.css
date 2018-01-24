@@ -27,6 +27,7 @@ hr {
 	background-repeat:no-repeat;
 	background-position: auto;
 	height: 67vh;
+	/*height: 744px;*/
 	position: relative;
 	}
 
@@ -66,15 +67,17 @@ h2 {
 	padding: 20px;
 	}
 
-
 header {
-	align-content: right;
-	}
+    background-color: #FFED74;
+    border: 1px black solid;
+    /*padding: 20px;*/
+    align-content: center;
+}
 
 nav {
 	background-color: #E8C66A;
     border: 1px black solid;
-    margin: 0em auto;
+    margin:auto;
 
 	}
 
@@ -94,12 +97,6 @@ nav a {
 		background: #aaaaaa
 	}
 
-header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -111,7 +108,7 @@ header {
 
 
 #Work {
-    background-color: #E89C6C;
+    background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
 }
@@ -121,6 +118,7 @@ header {
 	width: 600px;
 	height: 400px;
 	margin: 10px;
+	background-color: #E582A2;
 }
 
 footer {
@@ -132,4 +130,9 @@ div {
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
+}
+
+div .project {
+	line-height: 400px;
+	text-align: center;
 }
