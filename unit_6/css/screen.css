@@ -33,7 +33,7 @@ hr {
 
 #intro div {
     font-size: 1.5em;
-    color: #696969;
+    /*color: #696969;*/
     position: absolute;
     right: 18%;
     top: 18%;
@@ -99,7 +99,7 @@ nav a {
 
 .wrapper {
 		width: 1366px;
-		background-color: purple;
+		/*background-color: purple;*/
 		margin: auto;
 	}
 

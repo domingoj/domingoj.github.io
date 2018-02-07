@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+#wrapper {
+	width: 100%;
+	background-color: white;
+	border: none;
+	}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #222222;
+	line-height: 1.5
+	}
+
+nav {
+	background-color: #000000;
+    margin:auto;
+    border: none;
+	}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	display: block;
+	width: 10%;
+	padding: .75em 1.5em;
+	float: left;
+	text-align: center;
+	}
+	
+nav a:hover {
+		background-color: #325EE8;
+	}
+
+.navigation {
+	padding: 0em;
+	}
+
+/*LoVe HAte*/
+
+
+hr {
+	width: 475px;
+	}
+
+#intro img {
+	width: 28%;
+	}
+
+#intro {
+	background-size: 100%;
+	background-repeat:no-repeat;
+	height: 48vh;
+	position: relative;
+	display: block;
+	background-color: blue;
+	}
+
+#intro div {
+    font-size: 1.45em;
+    color: #696969;
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    margin: 2em;
+    background-color: orange;
+    border: none;
+	}
+
+h1, h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .05em;
+	font-size: 1.5em;
+	}
+
+h2 {
+	font-size: 1em;
+	font-weight: 400;
+	}
+
+#bio {
+	font-style: italic;
+	font-size: .72em;
+	font-weight: 300;
+	padding-top: 1.25em;
+	width: 30em;
+	line-height: 1.5em;
+	}
+
+.Work {
+	background-color: #696969;
+	padding: 20px;
+	}
+
+header {
+    align-content: center;
+	}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	}
+
+#Work {
+    padding: 20px;
+	}
+
+.project img {
+	width: 100%;
+	display: block;
+	}
+.project div {
+	position: absolute;
+	bottom: -5em;
+	width: 100%;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	padding: 1em;
+	color: #fff;
+	transition-duration: .5s;
+	}
+
+.project:hover div {
+	bottom: 0;
+	}
+.project {
+	float:left;
+	width: 48%;
+	position: relative;
+	overflow: hidden;
+	margin: 1%;
+	}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+	}
+
+div {
+    padding: 20px;
+	}
+
+div .project {
+	line-height: 400px;
+	text-align: center;
+	}
