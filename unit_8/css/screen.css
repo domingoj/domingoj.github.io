@@ -252,10 +252,9 @@ footer {
 
 	nav {
 		display: none;
-	}
+		}
 	nav a {
 		padding: 1em 2.5em;
-		/*display: inline-block;*/
 		float: none;
 		display: block;
 		}
@@ -266,6 +265,7 @@ footer {
 	label {
 		display: block;
 		}
+		
 	#toggle:checked + nav {
 		display: block;
 		}
