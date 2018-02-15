@@ -291,6 +291,19 @@ footer p {
 	#toggle:checked + nav {
 		display: block;
 		}
+
+	footer {
+		text-align: center;
+		}
+
+	footer a {
+		display: inline-block;
+		padding: .25em .75em;
+		margin-bottom: .2em;
+		}
+	footer p {
+		margin-bottom: .2em;
+		}
 }
 
 
