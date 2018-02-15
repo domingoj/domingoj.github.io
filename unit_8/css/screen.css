@@ -150,9 +150,18 @@ label {
 	}
 
 footer {
-    border: 1px black solid;
-    padding: 20px;
-	}
+		text-align: center;
+		}
+
+footer a {
+		display: inline-block;
+		padding: 1em 1.5em;
+		margin-bottom: .2em;
+		}
+footer p {
+		/*display: inline-block;*/
+		margin-bottom: .2em;
+		}
 
 @media only screen and (max-width: 1010px) {
 
@@ -212,6 +221,15 @@ footer {
 
 	h3 {
 		font-weight: 700;
+		display: inline-block;
+		padding: 0 .5em;
+		font-size: 1em;
+	}
+
+	.project div p {
+		display: inline-block;
+		padding: 0 .5em;
+		font-size: 1em;
 	}
 
 	hr {
@@ -245,6 +263,7 @@ footer {
 		color: #000;
 		transition-duration: .5s;
 		display: block;
+		text-align: center;
 		}
 	}
 
