@@ -162,7 +162,7 @@ footer p {
 		margin-bottom: .2em;
 		}
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 1024px) {
 
 	#bio {
 		font-size: .65em;
@@ -195,6 +195,8 @@ footer p {
 
 @media only screen and (max-width: 768px) {
 
+
+
 	#intro img {
 		width: 60%;
 		float: none;
@@ -210,11 +212,11 @@ footer p {
 		}
 
 	h1 {
-		font-size: 1.2em;
+		font-size: 1.5em;
 		text-align: center;
 		}
 	h2 {
-		font-size: .8em;
+		font-size: 1em;
 		text-align: center;
 		}
 
@@ -222,7 +224,7 @@ footer p {
 		font-weight: 600;
 		display: inline-block;
 		padding: 0 .25em;
-		font-size: 1em;
+		/*font-size: 1em;*/
 	}
 
 	.project div p {
