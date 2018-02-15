@@ -159,7 +159,6 @@ footer a {
 		margin-bottom: .2em;
 		}
 footer p {
-		/*display: inline-block;*/
 		margin-bottom: .2em;
 		}
 
@@ -273,7 +272,7 @@ footer p {
 		display: none;
 		}
 	nav a {
-		padding: 1em 2.5em;
+		padding: 1.5em 2.5em;
 		float: none;
 		display: block;
 		}
@@ -283,6 +282,8 @@ footer p {
 		}
 	label {
 		display: block;
+		padding: 1em 2.5em;
+
 		}
 
 	#toggle:checked + nav {
