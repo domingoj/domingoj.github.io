@@ -298,7 +298,7 @@ footer p {
 
 	footer a {
 		display: inline-block;
-		padding: .25em .75em;
+		padding: .25em 0em;
 		margin-bottom: .2em;
 		}
 	footer p {
