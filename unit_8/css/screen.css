@@ -182,7 +182,7 @@ footer {
 		}
 	h3 {
 		font-size: 1em;
-	}
+		}
 	}
 
 @media only screen and (max-width: 768px) {
@@ -246,6 +246,7 @@ footer {
 		transition-duration: .5s;
 		display: block;
 		}
+	}
 
 @media only screen and (max-width: 600px) {
 
